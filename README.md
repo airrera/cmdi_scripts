@@ -13,7 +13,8 @@ Note: This script was build for Python3.
 - If the result of the command changes during your attack, your output will be weird.
 
 ### Usage
-```shell
+
+```
 $> python3 cmdi_blind.py -h
 usage: cmdi_blind.py [-h] --cmd CMD --url URL [-v] [-o OUTPUT] [-j]
 
@@ -27,5 +28,6 @@ optional arguments:
   -o OUTPUT, --output OUTPUT
                         File to save the output.
   -j, --java            Encoding the payload for Java based targets. Note that Runtime.getRuntime().exec() does not support shell metacharacters.
+```
 
 ### Sample
