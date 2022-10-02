@@ -2,7 +2,7 @@
 Scripts used for exploit command injection vulnerabilities
 
 ## cmdi_blind.py
-Script created for exploit blind command injection issues and it can be used when a reverse shell is not possible due to firewall or network restrictions in the target or the target environment. The script uses awk, wc and sleep for signal ourselves. Additionally, uses a Java encoding 'trick' for Java targets using Runtime.exec().
+Script created for exploit blind command injection issues and it can be used when a reverse shell is not possible due to firewall or network restrictions in the target or the target environment. The script uses awk, wc and sleep for signal ourselves. Additionally, uses a Java encoding 'trick' for Java targets using Runtime.getRuntime().exec().
 
 Note: This script was build for Python3.
 
