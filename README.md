@@ -31,3 +31,4 @@ optional arguments:
 ```
 
 ### Sample
+![cmdi_blind.py](pics/cmdi_blind_output.png)
